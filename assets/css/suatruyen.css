@@ -5,7 +5,7 @@
 .navbar-toggler{
   color: #0000007d;
 
-}
+} 
 .navbar-toggler i{
   font-size: 20px;
 }
@@ -442,64 +442,38 @@
 }
 /*main*/
 /*main*/
-.trencung .row{
-  margin-top: 65px;
+.trencung .container{
+  margin-top: 40px;
   margin-bottom: 50px;
-  
   padding: 10px;
   line-height:0;
   padding-bottom: 0;
   border-bottom: 2px solid gray;
-  
+  display: flex;
+  justify-content: space-between;
+  position: relative;
 }
 .chevron-left {
   
-  margin-top: 1000px;
+  margin-top: 0px;
   padding: 0;
   color:rgba(79, 73, 73, 0.959);
+  position: absolute;
+  left:-10px;
+  top:15px;
 }
-.trencung .row .col-1{
-  margin-top: 7px;
+
   
-}
-.trencung .row .col-6{
- margin: 0;
- margin-left: -90px;
-}
-.trencung .row .col-5{
-  
-  margin-right: -100px;
-  position: relative;;
-}
+
+
 .body{
   background-color: #e5e7eb;
 }
-.button {
-  position: absolute;
-  right: -80px;
-  background-color: #cfd3d6;
+.buttonhuy {
+  background-color: #b4b6b8;
   border: none;
   color:black;
   padding: 17px 23px;
-  text-align:right;
-  justify-items: left;
-  text-decoration: none;
-  font-size: 18px;
-  
-  margin: 4px 2px;
-  cursor: pointer;
-  transition-duration: 0.4s;
-  border-radius: 5px;
-}
-.button:hover{
-  position: absolute;
-  right: -80px;
-  background-color:#919498;
-  border: none;
-  color:white;
-  padding: 17px 23px;
-  text-align:right;
-  justify-items: left;
   text-decoration: none;
   font-size: 18px;
   font-size: large;
@@ -507,6 +481,23 @@
   cursor: pointer;
   transition-duration: 0.4s;
   border-radius: 5px;
+  position: absolute;
+  right: 10px;
+}
+.buttonhuy:hover{
+  background-color:#919498;
+  border: none;
+  color:white;
+  padding: 17px 23px;
+  text-decoration: none;
+  font-size: 18px;
+  font-size: large;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 5px;
+  position: absolute;
+  right: 10px;
 }
 
 
@@ -537,22 +528,22 @@ margin-top: 10px;
 font-size: 16px;
 color: #666;
 }
-.chinhsua .col-6{
+.chinhsua .col-lg-6{
 border: 2px solid #ccc;
 position: relative;
 padding: 20px;
 
 
 }
-.chinhsua .col-6 h5{
+.chinhsua .col-lg-6 h5{
 position: absolute;
 left: 270px;
 
 }
-.chinhsua .col-6 .content{
+.chinhsua .col-lg-6 .content{
 margin-top: 30px;
 }
-.chinhsua .col-6 .content input{
+.chinhsua .col-lg-6 .content input{
           width: 100%;
           padding: 8px 12px;  
           margin: 8px 0;
@@ -561,7 +552,7 @@ margin-top: 30px;
           border-radius: 4px;
           font-size: 14px;
 }
-.chinhsua .col-6 .content .paragraph-input {
+.chinhsua .col-lg-6 .content .paragraph-input {
 width: 100%; /* Full width */
 height: 200px; /* Height of the textarea */
 padding: 10px; /* Padding inside the textarea */
@@ -589,7 +580,7 @@ color:#757575;
 
 /* FOOTER */
 main{
-  margin-top: 100px;
+ margin-top: 80px;
   margin-bottom: 100px;
 }
 .footer {
