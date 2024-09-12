@@ -1,7 +1,6 @@
 /* NAV */
 .navbar-brand{
   color: black;
-  font-size: 18px;
 }
 .navbar-toggler{
   color: #0000007d;
@@ -31,9 +30,6 @@
 
 .dropdown-menu.show {
   display: flex;
-}
-.form-control{
-  font-size: 0.7rem;
 }
 
 @media (min-width: 992px) {
