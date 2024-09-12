@@ -591,6 +591,8 @@
   display: flex;
   align-items: center;
   border-radius: 10px;
+  margin-bottom: 16px;
+  position: relative;
 }
 
 .inner-list .inner-content:hover {
