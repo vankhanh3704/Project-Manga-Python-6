@@ -31,6 +31,15 @@
 .dropdown-menu.show {
   display: flex;
 }
+.navbar-nav .dropdown-menu{
+  overflow: auto;
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+      position: absolute;
+      width: 800px;
+  }
+}
 
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
@@ -125,7 +134,7 @@
 
 
 .c-item {
-  height: 330px;
+  height: 420px;
   position: relative;
 }
 
@@ -166,7 +175,7 @@
 
 #myCarousel {
   background-color: #d1d5db;
-  height: 28rem;
+  height: 32rem;
 
 }
 
@@ -239,6 +248,7 @@
 
 .inner-text {
   margin-left: 10px;
+  width: 90%;
 }
 
 .text-end {
@@ -328,7 +338,9 @@
 }
 
 #new-update .inner-name h3 {
-  font-size: .875rem;
+  margin: 0;
+  margin-top: 8px;
+  font-size: 1rem;
   line-height: 1.25rem;
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity));
@@ -339,6 +351,20 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+#new-update .inner-name .inner-chap {
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity));
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  /* Số dòng hiển thị */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 
 .inner-nextpage {
   display: flex;
