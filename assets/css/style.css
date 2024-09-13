@@ -71,7 +71,12 @@
     width: 40vw;
     flex-wrap: wrap;
   }
-
+}
+@media (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+      position: absolute;
+      width: 800px;
+  }
 }
 /* thong bao */
 
