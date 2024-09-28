@@ -418,6 +418,7 @@
 }
 .body{
   background-color: #d1d5db;
+  
 }
 .content h6{
   text-transform: uppercase;
@@ -518,6 +519,8 @@
   padding-top: 4rem;
   padding-bottom: 4rem;
   border-top-width: 2px;
+  margin-bottom: -100px;
+  
 }
 
 .footer .inner-text {
