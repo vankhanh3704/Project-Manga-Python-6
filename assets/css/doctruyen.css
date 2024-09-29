@@ -329,11 +329,12 @@
   position: relative;
   background-color: #e5e7eb;
   padding-top: 10px;
+  padding-bottom: 20px;
   
 }
 .intro .info h2{
   position: absolute;
-  top:-60px;
+  top:-90px;
   color:white;
   font-family: "Times New Roman", Times, serif;
   
@@ -396,12 +397,12 @@
   width: auto;
   height: 320px;
   top: -150px;
-  left: 100px;
+  left: 50px;
   border-radius: 10px;
 }
 .intro .info .desc{
   padding-bottom: 30px;
-  margin-left: 350px;
+  margin-left: 300px;
 }
 .intro .info .desc button{
   background-color: blue; /* Green */
@@ -477,6 +478,9 @@
   color :rgb(71, 69, 69);;
   justify-content: center;
   line-height: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+ 
 
 }
 .allchuong .noidungchuong p{
