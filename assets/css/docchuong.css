@@ -336,8 +336,7 @@
     color: white; /* Màu chữ */
     font-size: 17px;
     font-weight: 500;
-    width: 700px;
-    height: 40px;
+  
     text-align: center; /* Căn giữa chữ */
     text-decoration: none; /* Bỏ gạch chân */
     display: inline-block; /* Hiển thị dạng khối nội bộ */
@@ -367,8 +366,7 @@
     color: white; /* Màu chữ */
     font-size: 17px;
     font-weight: 500;
-    width: 345px;
-    height: 40px;
+    
     text-align: center; /* Căn giữa chữ */
     text-decoration: none; /* Bỏ gạch chân */
     display: inline-block; /* Hiển thị dạng khối nội bộ */
@@ -398,9 +396,7 @@
     display: flex;
   }
   .anh img{
-    width: 1100px;
-    height: 600px;
-    
+    width: 100%;
   }
 
   /* FOOTER */
