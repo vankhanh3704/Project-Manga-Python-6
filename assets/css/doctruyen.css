@@ -16,7 +16,7 @@
   list-style: none;
   padding: 0;
 }
-
+ 
 .dropdown-menu li .dropdown-item {
   color: gray;
   font-size: 1em;
@@ -432,6 +432,7 @@ main {
 }
 .intro .info .desc .detail{
   min-height: 170px;
+  font-size: large;
 }
 
 .intro .info .desc button {
@@ -447,7 +448,7 @@ main {
   margin: 5px 15px;
   cursor: pointer;
   border-radius: 5px;
-  width: 160px;
+  width: 200px;
   height: 40px;
   
 }
@@ -463,7 +464,7 @@ main {
   margin: 5px 15px;
   cursor: pointer;
   border-radius: 5px;
-  width: 160px;
+  width: 200px;
   height: 40px;
   
 }
