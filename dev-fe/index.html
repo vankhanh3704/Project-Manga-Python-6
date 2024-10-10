@@ -14,7 +14,6 @@
     crossorigin="anonymous"></script>
   <link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <script src="assets/js/javascrip.js"></script>
   <meta name="theme-color" content="#7952b3">
 
 
@@ -31,7 +30,16 @@
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
+  <!-- js -->
+  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".notification_icon .fa-bell").click(function () {
+        $(".dropdown").toggleClass("active");
+      })
+    });
+  </script>
   <style>
     .bd-placeholder-img {
       font-size: 1.125rem;
@@ -148,7 +156,28 @@
               <i class="fa-solid fa-magnifying-glass"></i>
             </button>
           </form>
+          <!-- <div class="wrapper"> -->
+            <div class="notification_wrap">
+              <div class="notification_icon">
+                <i class="fa-regular fa-bell"></i>
+              </div>
+              <div class="dropdown">
+                <div class="notify_item">
+                  <div class="notify_info">
+                    <p>Name<span>Chương</span></p>
+                    <span class="notify_time">time</span>
+                  </div>
+                </div>
+                <div class="notify_item">
+                  <div class="notify_info">
+                    <p>Name<span>Chương</span></p>
+                    <span class="notify_time">time</span>
+                  </div>
+                </div>
+              </div>
 
+            </div>
+          <!-- </div> -->
           <a class="inner-sign" href="login.html">Đăng nhập</a>
         </div>
       </div>
@@ -1356,28 +1385,28 @@
     <!-- END NHÓM DỊCH -->
 
 
-   <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container">
-      <div class="inner-text">
-        <div class="inner-contact">Link Github của nhóm 6:
-          <a href="https://github.com/nhom-6-python/btl-python-n6.git" target="_blank"> GitHub <i class="fa-brands fa-github"></i></a>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="inner-text">
+          <div class="inner-contact">Link Github của nhóm 6:
+            <a href="https://github.com/nhom-6-python/btl-python-n6.git" target="_blank"> GitHub <i
+                class="fa-brands fa-github"></i></a>
+          </div>
+          <div class="inner-contact">
+            Thành viên nhóm:
+          </div>
+          <div class="inner-member">B22DCCN261 - Hoàng Sơn Hải</div>
+          <div class="inner-member">B22DCKH131 - Hoàng Khánh Văn</div>
+          <div class="inner-member">B22DCKH129 - Nguyễn Hữu Trường</div>
+          <div class="inner-member">B22DCCN633 - Thái Hữu Phúc</div>
+          <div class="inner-member">B22DCCN371 - Trịnh Mạnh Hùng</div>
         </div>
-        <div class="inner-contact">
-          Thành viên nhóm:
-        </div>
-        <div class="inner-member">B22DCCN261 - Hoàng Sơn Hải</div>
-        <div class="inner-member">B22DCKH131 - Hoàng Khánh Văn</div>
-        <div class="inner-member">B22DCKH129 - Nguyễn Hữu Trường</div>
-        <div class="inner-member">B22DCCN633 - Thái Hữu Phúc</div>
-        <div class="inner-member">B22DCCN371 - Trịnh Mạnh Hùng</div>
       </div>
-    </div>
 
-  </footer>
-  <!-- END FOOTER -->
+    </footer>
+    <!-- END FOOTER -->
   </main>
-
 </body>
 
 </html>
